@@ -13,7 +13,7 @@ gui.add_input_string("添加一个字符串编辑框“，函数()
 
 组件相关函数
 
-## std::add_input_string(std::string，function)
+## gui.add_input_string(std::string，function)
 
 类成员
 ```lua
