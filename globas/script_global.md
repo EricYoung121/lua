@@ -1,5 +1,11 @@
-# script_globals
+# globals
+**使用方法**
 
+```features
+
+globals.set_int(全局索引,写入值)
+
+```
 
 **script_global**
 ```lua
