@@ -1,9 +1,9 @@
-# input_int 
+# add_input_int 
 用于在菜单中添加整数型编辑框组件
 
 **代码示例:**
 ```lua
-gui.input_int("添加一个整数编辑框",function()
+gui.add_input_int("添加一个整数编辑框",function()
 
 --这里填写执行的函数代码
 
@@ -13,7 +13,7 @@ end)
 
 组件相关函数
 
-## gui.input_int(std::string name, function)
+## gui.add_input_int(std::string name, function)
 
 类成员
 ```lua
