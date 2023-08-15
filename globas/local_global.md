@@ -3,7 +3,7 @@
 **使用方法**
 
 ```features
-locals.set_int("脚本名称",index/*脚本索引*/)
+locals.set_int("脚本名称", 脚本索引) 
 
 ```
 
