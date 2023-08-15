@@ -1,10 +1,10 @@
-# check_box
+# add_check_box
 
 用于在菜单中添加选择框组件
 
 **代码示例:**
 ```lua
-gui.check_box("添加一个选择框",function()
+gui.add_check_box("添加一个选择框",function()
 
 --这里填写执行的函数代码
 
@@ -13,7 +13,7 @@ end)
 
 组件相关函数
 
-## gui.check_box(std::string name, function)
+## gui.add_check_box(std::string name, function)
 
 类成员
 ```lua
