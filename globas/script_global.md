@@ -1,4 +1,4 @@
-# globals
+# script_globals
 
 
 **script_global**
