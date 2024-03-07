@@ -1,10 +1,16 @@
-# add_check_box
+# check_box
 
 用于在菜单中添加选择框组件
 
 **代码示例:**
 ```lua
-gui.add_check_box("添加一个选择框",function()
+local check_box = gui.add_tab("主选项"):add_tab("子选项"):check_box("添加一个选择框", "添加选择框提示", function()
+
+if check_box:is_enabled() then -- 判断是否启动
+    -- 这里填写执行的函数代码
+end)
+
+gui.add_tab("主选项"):check_box("添加一个选择框",function()
 
 --这里填写执行的函数代码
 
