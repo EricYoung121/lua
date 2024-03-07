@@ -18,7 +18,7 @@ end)
 
 组件相关函数
 
-## gui.add_check_box(std::string name, std::string description, function)
+## check_box(std::string name, std::string description, function)
 
 类成员
 ```lua
