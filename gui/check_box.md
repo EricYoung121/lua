@@ -10,7 +10,7 @@ if check_box:is_enabled() then -- 判断是否启动
     -- 这里填写执行的函数代码
 end)
 
-gui.add_tab("主选项"):check_box("添加一个选择框",function()
+gui.add_tab("主选项"):check_box("添加一个选择框", "添加选择框提示", function()
 
 --这里填写执行的函数代码
 
