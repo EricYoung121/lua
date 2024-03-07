@@ -19,7 +19,7 @@ end)
 
 组件相关函数
 
-## gui.button(std::string name, std::string description, function)
+## button(std::string name, std::string description, function)
 **类方法**
 ```lua
 button["baize"]:set_text(std::string name) -- 设置按钮标题
