@@ -13,5 +13,5 @@ void info(const std::string& data) - 输出文本
 
 void warning(const std::string& data)  - 输出警告文本
 
-void debug(const std::string& data) - 输出调试文本
+void fatal(const std::string& data) - 输出调试文本
 ```
