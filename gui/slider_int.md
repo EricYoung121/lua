@@ -7,6 +7,9 @@
 local val = 0
 gui.add_tab("添加一个选项"):add_tab("添加一个子选项"):slider_int("添加一个整数滑块条", "滑块条的提示", val, 0, 100)
 
+local val = 0
+gui.add_tab("添加一个选项"):slider_int("添加一个整数滑块条", "滑块条的提示", val, 0, 100)
+
 ```
 
 组件相关函数
