@@ -3,6 +3,9 @@
 command库操作
 
 ** 代码示例：**
+```features
+command.call("功能名称")
+```
 
 **表成员：**
 ```lua
